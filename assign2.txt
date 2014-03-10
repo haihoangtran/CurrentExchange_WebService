@@ -1,0 +1,12 @@
+Assign2: Due 11:59PM March 8th
+
+Suppose you've been hired by a currency exchange broker. The company sells currency exchange from USD to various currencies. 
+
+They have deals with three vendors (and may be more later) that have promised to exchange currencies at favorable rates. The rate offered by these vendors varies, however. The company wants you to develop a program that will go out to these different vendors, find out the exchange rate they offer, pick the vendor with the highest rate, adjust 2% to that rate (for profit), and offer it to the customers. To make our lives easy, there is a web service to get the rates.
+
+A test web service that offers the rates is located at the following URL: <https://agile.cs.uh.edu/rate?cur=GBP&vendor=v1> (you can replace GBP with any code and V1 with any vendor name - this is just a test server and not production server).
+
+Use test driven development approach to write a function that will go out to the web services and fetch the highest rate, adjust it by 2% for profit, and report it to the caller. Report back the marked up rate and the vendor name.
+
+Pair response:
+le x tran x
